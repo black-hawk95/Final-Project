@@ -1,0 +1,242 @@
+body, html{
+    height:             100%;
+    margin:             0%;
+    padding:            0%;
+
+}
+
+
+                                /*** Header ***/
+
+
+
+header {
+    display:             flex;
+    align-items:         center;
+    justify-content:     center;
+    background-image:    url(../img/bg-img.png);
+    background-position: center;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    margin:              0%;
+    padding:             0%;
+    box-shadow:          0px 0px 12px rgba(0, 0, 0, 1);
+}
+
+
+
+
+header nav h1 { 
+    font-family:        'Heebo', sans-serif;
+    font-weight:         bold;
+    font-size:           96px;
+    letter-spacing:      0.05em;
+    color:              #5B1B1B;
+    text-shadow:         0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom:       0%;
+}
+
+
+header nav h2{
+    text-align:          center;
+    color:               rgb(0, 0, 0);
+    font-weight:         bold;
+    font-size:           64px;
+    font-family:        'Heebo', sans-serif;
+    text-shadow:         0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top:          0%;
+    margin-bottom:       30%;
+
+}
+
+
+header div img{
+    position:            absolute;              
+    left:                38%;
+    top:                 45%;
+    box-shadow:          0px 0px 12px rgba(0, 0, 0, 0.8);
+    border-radius:       50%;
+
+}
+
+
+                                /*** Body ***/
+
+
+
+p { 
+    margin-top:          15%;
+    margin-left:         5%;
+    margin-bottom:       0%;
+    font-family:         Heebo;
+    font-size:           48px;
+    letter-spacing:      0.05em;
+    
+}
+
+.red-line{
+    width:               5%;
+    margin-left:         5.1%;
+    border-bottom:       8px solid #D61407;
+}
+
+article {
+    display:              inline-block;
+
+}
+
+
+                    /*** Text 1 ***/
+
+.text1 {
+
+    margin-top:           10%;
+    margin-bottom:        10%;
+    margin-left:          7%;
+    margin-right:         12.5%;
+    width:                648px;    
+    font-family:          Heebo;
+    font-size:            20px;
+    letter-spacing:       0.05em;
+    color:                #000000;
+    line-height:          1.5;
+    text-align:           center;
+
+}
+
+.text1 h1 {
+   font-family:           Heebo;
+    font-weight:          bold;
+    font-size:            24px;
+    letter-spacing:       0.05em;
+    color:                #000000;
+    text-align:           center;
+}
+
+.text1 ul{
+    display:               inline-block;
+    width:                 41%;
+    list-style:            none;
+}
+
+
+.text1 ul li{
+font-family:                Heebo;
+font-size:                  24px;
+letter-spacing:             0.05em;
+color:                      #000000;
+width:                      300px;
+}
+
+
+.text1 ul .as {
+    margin-top:             17%;
+
+}
+
+
+.text1 ul li p {
+    font-family:            Heebo;
+    font-weight:            bold;
+    font-size:              24px;
+    letter-spacing:         0.05em;
+    color:                  #793938;
+}
+
+
+
+
+
+
+
+
+
+
+
+                    /*** Text 2 ***/
+
+
+
+
+.text2 {
+
+    margin-top:            10%;
+    margin-bottom:         10%;
+    margin-left:           7%;
+    width:                 25%;
+    font-family:           Heebo;
+    font-size:             20px;
+    letter-spacing:        0.05em;
+    line-height:           1.5;
+
+}
+
+
+
+.text2 h1{
+    text-align:            center;
+    font-family:           Heebo;
+    font-weight:           bold;
+    font-size:             24px;
+    letter-spacing:        0.05em;
+    color:                 #000000;
+    margin-left:           5%;
+}
+
+.text2 h2 {
+
+    text-align:            center;
+    font-family:            Heebo;
+    font-weight:            bold;
+    font-size:              24px;
+    letter-spacing:         0.05em;
+    color:                  #793938;
+    margin-top:             8.3%;
+
+
+}
+
+.text2 p {
+    width:                  445px;
+    height:                 71px;
+    left:                   952px;
+    top:                    1159px;
+    text-align:             center; 
+    font-family:            Heebo;
+    font-size:              24px;
+    letter-spacing:         0.05em;
+    color:                  #000000;
+    margin-top:             10%;
+}
+
+
+
+.bottons {
+    display:               flex;
+    justify-content:       space-between;
+}
+
+a {
+    margin-left:           4%;
+    margin-right:          4%;
+
+}
+
+
+                                /*** Footer ***/
+
+
+footer  {
+    display:               flex;
+    align-items:           center;
+    justify-content:       center;
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+
+footer a {
+    margin-left:            1.5%;
+}
+
+
+
